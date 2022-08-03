@@ -9,6 +9,18 @@ https://docs.spring.io/spring-batch/docs/current/reference/html/job.html
 #まずは実践、Spring Boot Batchの動かし方
 https://qiita.com/kawakawaryuryu/items/4b3f5cc7574b7bd6b625
 
+#Spring Batch サンプルコード(DB)
+https://www.qoosky.io/techs/3f60bee741
+
+
+#Spring Batch を使用して指定したジョブを実行する際の考慮点
+https://qiita.com/kakasak/items/81a2a91ac22a8a05ee2a
+
+
+#Schema
+https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization
+
+
 
 
 
