@@ -58,3 +58,9 @@ JobLauncherは記載していなかったけどどこで呼んでいるのか？
 全体実行を行わない
 
 java -jar Spring_Batch_example-0.0.1-SNAPSHOT.jar --job.name=importUserJob
+
+-----------------------------------------------------------------------------------
+
+https://www.sofugi.co.jp/solution/flex/Flex-Seasar2_HTML5-Spring.html
+
+https://qiita.com/sireikan/items/839cf14236aa010ddfec
