@@ -64,3 +64,11 @@ java -jar Spring_Batch_example-0.0.1-SNAPSHOT.jar --job.name=importUserJob
 https://www.sofugi.co.jp/solution/flex/Flex-Seasar2_HTML5-Spring.html
 
 https://qiita.com/sireikan/items/839cf14236aa010ddfec
+
+SELECT 
+cast((case when user_modifydate < (current_date -INTERVAL '1days')then user_modifydate else (current_date -INTERVAL '1days') END)as date),
+(cast((case when user_modifydate < (current_date -INTERVAL '1days')then user_modifydate else (current_date -INTERVAL '1days') END)as date) -
+cast((case when date_trunc('month',current_date) > user_registerdate then cast(date_trunc('month',current_date)as date) else user_registerdate END)as date)),
+cast((case when date_trunc('month',current_date) > user_registerdate then cast(date_trunc('month',current_date)as date) else user_registerdate END)as date)
+AS intarval_date
+FROM public.t_user
